@@ -20,7 +20,6 @@ func (c Customer) statusAsText() string {
 }
 
 func (c *Customer) ToDto() *dto.CustomerResponse {
-
 	return &dto.CustomerResponse{
 		ID:        c.ID,
 		Name:      c.Name,
